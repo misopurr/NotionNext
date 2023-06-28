@@ -14,7 +14,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Michelle Tawater',
   BIO: process.env.NEXT_PUBLIC_BIO || "Welcome to the Coder's Catnip!🍚",
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com',
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, Blog',
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || "The Coder's Catnip",
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'thecoderscatnip@gmail.com',
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '',
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '',
@@ -238,7 +238,6 @@ COMMENT_WALINE_SERVER_URL:
     process.env.NEXT_PUBLIC_WALINE_SERVER_URL || '',
 COMMENT_WALINE_RECENT: process.env.NEXT_PUBLIC_WALINE_RECENT || false,
 
-},
 
   COMMENT_WEBMENTION: {
     ENABLE: process.env.NEXT_PUBLIC_WEBMENTION_ENABLE || false,

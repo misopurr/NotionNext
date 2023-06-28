@@ -13,12 +13,11 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false,
+AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Michelle Tawater',
+BIO: process.env.NEXT_PUBLIC_BIO || 'Welcome to the Coder\'s Catnip!🍚',
+LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com',
+KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, Blog',
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Michelle Tawater', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || 'Welcome to the Coder\'s Catnip!🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
-  // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'thecoderscatnip@gmail.com', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '', // 你的twitter个人主页

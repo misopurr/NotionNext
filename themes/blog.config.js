@@ -8,9 +8,9 @@ const BLOG = {
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false,
   LANG: process.env.NEXT_PUBLIC_LANG || 'en-US',
   SINCE: '',
-  APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light',
+  APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'dark',
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6],
-  CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false,
+  CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || true,
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Michelle Tawater',
   BIO: process.env.NEXT_PUBLIC_BIO || "Welcome to the Coder's Catnip!🍚",
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com',
@@ -294,7 +294,7 @@ NOTION_PROPERTY_NAME: {
 ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true,
 
 AVATAR: process.env.NEXT_PUBLIC_AVATAR || '/avatar.svg',
-TITLE: process.env.NEXT_PUBLIC_TITLE || 'NotionNext BLOG',
+TITLE: process.env.NEXT_PUBLIC_TITLE || 'The Coder/s Catnip Blog',
 HOME_BANNER_IMAGE:
     process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || './bg_image.jpg',
 DESCRIPTION:
